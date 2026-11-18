@@ -35,6 +35,8 @@ Docker 模式下，Nginx 会通过运行时注入的地址访问后端。默认�
 
 ## 本地运行
 
+前置要求：Node.js **22.12+**（Vite 7 要求；本机已使用 Node 24.22.1 LTS），并先启动 Python 后端 `http://localhost:8000`。
+
 安装依赖：
 
 ```bash
